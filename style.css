@@ -716,7 +716,7 @@ font-size: 11px;
 
 /* Back to top button
 ---------------------------------- */
-#back-top {
+back-top {
     position: fixed;
     z-index: 1000;
     bottom: 40px;
@@ -725,7 +725,7 @@ font-size: 11px;
 #back-top a {
     width: 60px;
     height: 60px;
-   
+    display: block;
     text-align: center;
     font: 11px/100% Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -763,6 +763,9 @@ and (max-width : 480px) {
     font-size: 20px;
 }
 }
+#skills {
+text-indent: inherit;}
+
 #skills {
 text-indent: inherit;}
 
