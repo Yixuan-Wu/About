@@ -181,8 +181,8 @@ header {
 }
 
 header .intro-text {
-    padding-top:200px; 
-    padding-bottom: 60px;
+	padding-top:200px; 
+	padding-bottom: 60px;
     text-transform:capitalize;
     font-weight: 700;
     font-size: 45px;
@@ -211,7 +211,11 @@ header .intro-text {
 	    margin-bottom: 25px;
 	}
 }
-
+.content{
+	font-family:Roboto;
+	word-spacing: 2px;
+	
+}
 
 
 /*--------------------
@@ -277,7 +281,7 @@ height: 95px;
 
 .skillbar {
     position: relative;
-    display: block;
+
     width: 100%;
 }
 
@@ -302,7 +306,7 @@ background-color: #dfdfdf;
 }
 
 .skillbar-bar {
-display: block;
+
     background-color: #dfdfdf;
     height: 3px;
     width: 100%;
@@ -721,7 +725,7 @@ font-size: 11px;
 #back-top a {
     width: 60px;
     height: 60px;
-    display: block;
+   
     text-align: center;
     font: 11px/100% Arial, Helvetica, sans-serif;
     text-transform: uppercase;
